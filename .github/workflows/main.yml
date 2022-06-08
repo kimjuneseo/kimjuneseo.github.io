@@ -5,7 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
-              uses: actions/checkout@main
+              uses: actions/checkout@master
             - run: node -v
             - name: Vuepress deploy
               uses: jenkey2011/vuepress-deploy@1.6.1
@@ -13,4 +13,4 @@ jobs:
                   ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
                   BUILD_SCRIPT: yarn && yarn build
                   TARGET_BRANCH: gh-pages
-                  BUILD_DIR: .vuepress/dist
+                  BUILD_DIR: .vitepress/dist
