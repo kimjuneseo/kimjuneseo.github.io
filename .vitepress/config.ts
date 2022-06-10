@@ -6,14 +6,12 @@ export default {
         logo: 'https://avatars.githubusercontent.com/u/70473267?v=4',
         sidebar: [
             {
-              text: 'SDHS',
+              text: 'TIL',
               collapsible: true,
               items: [
-                { text: '0608', link: '/sdhs/0608'},
-                { text: '0609', link: '/sdhs/0609'},
-                { text : '우하하하하', items:[
-                    { text:'난준서' , link:'/sdhs/우하하하하하하/난준서'}   
-                ]}
+                { text: '2022/06/08', link: '/sdhs/0608'},
+                { text: '2022/06/09', link: '/sdhs/0609'},
+                { text: '2022/06/10', link: '/sdhs/0610'},
               ]
             }
         ]
