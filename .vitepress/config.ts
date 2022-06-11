@@ -9,9 +9,9 @@ export default {
               text: 'TIL',
               collapsible: true,
               items: [
-                { text: '2022/06/08', link: '/sdhs/0608'},
-                { text: '2022/06/09', link: '/sdhs/0609'},
-                { text: '2022/06/10', link: '/sdhs/0610'},
+                { text: '2022/06/08', link: '/sdhs/20220608'},
+                { text: '2022/06/09', link: '/sdhs/20220609'},
+                { text: '2022/06/10', link: '/sdhs/20220610'},
               ]
             }
         ]
