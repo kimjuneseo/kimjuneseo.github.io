@@ -14,6 +14,7 @@ export default {
                 { text: '2022_06_10', link: '/sdhs/20220610'},
                 { text: '2022_06_11', link: '/sdhs/20220611'},
                 { text: '2022_06_12', link: '/sdhs/20220612'},
+                { text: '2022_06_13', link: '/sdhs/20220613'},
               ]
             }
         ]
