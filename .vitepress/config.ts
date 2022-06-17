@@ -18,6 +18,21 @@ export default {
                 { text: '2022_06_14', link: '/sdhs/20220614'},
                 { text: '2022_06_15', link: '/sdhs/20220615'},
                 { text: '2022_06_16', link: '/sdhs/20220616'},
+                { text: '2022_06_17', link: '/sdhs/20220617'},
+              ]
+            },
+            {
+              text: '회고',
+              collapsible: true,
+              items: [
+                { text: '2022_06_10', link: '/sdhs/20220610'},
+                { text: '2022_06_17', link: '/sdhs/20220617'},
+              ]
+            },
+            {
+              text: '기능대회',
+              collapsible: true,
+              items: [
               ]
             }
         ]
