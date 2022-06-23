@@ -38,6 +38,7 @@ export default {
               text: '기능대회',
               collapsible: true,
               items: [
+                {text: '문제정리', link: '/webslis/problemRank'}
               ]
             }
         ]
