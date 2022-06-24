@@ -1,3 +1,10 @@
+---
+title: 나는 김준서
+description: 기능경기대회 금메달 리스트 후보
+image: https://t1.daumcdn.net/cfile/tistory/990EF0475E31836602
+createBy: 2022-06-24
+---
+
 # 김준서
 
 ## 기억보다 기록을..
