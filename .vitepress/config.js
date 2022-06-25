@@ -81,7 +81,7 @@ function getSidebar(){
         text: '기능대회💻',
         collapsible: true,
         items: [
-          {text: '문제정리', link: '/webslis/problemRank'}
+          {text: '문제정리', link: '/webskills/problemRank'}
         ]
       },
       {
@@ -106,7 +106,7 @@ function getNav(){
       items: [
         {
           text:'TIL',
-          link:"/TIL/202206/20220608",
+          link:"/TIL/202206/202206",
           activeMatch: "/TIL/",
         },
         {
