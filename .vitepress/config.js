@@ -54,6 +54,15 @@ function getSidebar(){
       },
     ],
     
+    '/Daily/':[
+      {
+        text: '일상⏰',
+        collapsible: true,
+        items: [
+          {text: '대회 끝나고', link: '/Daily/afterSkills'}
+        ]
+      }
+    ],
     '/webskills/':[
       {
         text:'WEBSKILLS',
