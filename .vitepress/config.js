@@ -6,11 +6,11 @@ const mdDir = path.resolve(rootDir, "docs");
 
 export default {
     base: '/TIL/',
-    title: "김준서 블로그",
+    title: "한양노예 준서의 blog",
     description: 'A VitePress site',
     srcDir : mdDir,
     themeConfig: {
-        logo: 'https://avatars.githubusercontent.com/u/70473267?v=4',
+        
         sidebar:getSidebar(),
         nav: getNav()
     },
@@ -18,29 +18,40 @@ export default {
 
 function getSidebar(){
   return {
-    '/sdhs/':[
+    '/TIL/202206':[
       {
         text: 'TIL',
         collapsible: true,
         items: [
-          { text: '2022_06_08', link: '/sdhs/20220608'},
-          { text: '2022_06_09', link: '/sdhs/20220609'},
-          { text: '2022_06_10', link: '/sdhs/20220610'},
-          { text: '2022_06_11', link: '/sdhs/20220611'},
-          { text: '2022_06_12', link: '/sdhs/20220612'},
-          { text: '2022_06_13', link: '/sdhs/20220613'},
-          { text: '2022_06_14', link: '/sdhs/20220614'},
-          { text: '2022_06_15', link: '/sdhs/20220615'},
-          { text: '2022_06_16', link: '/sdhs/20220616'},
-          { text: '2022_06_17', link: '/sdhs/20220617'},
-          { text: '2022_06_18', link: '/sdhs/20220618'},
-          { text: '2022_06_19', link: '/sdhs/20220619'},
-          { text: '2022_06_20', link: '/sdhs/20220620'},
-          { text: '2022_06_21', link: '/sdhs/20220621'},
-          { text: '2022_06_22', link: '/sdhs/20220622'},
+
+          { text: '2022/06/08', link: '/TIL/202206/20220608'},
+          { text: '2022/06/09', link: '/TIL/202206/20220609'},
+          { text: '2022/06/10', link: '/TIL/202206/20220610'},
+          { text: '2022/06/11', link: '/TIL/202206/20220611'},
+          { text: '2022/06/12', link: '/TIL/202206/20220612'},
+          { text: '2022/06/13', link: '/TIL/202206/20220613'},
+          { text: '2022/06/14', link: '/TIL/202206/20220614'},
+          { text: '2022/06/15', link: '/TIL/202206/20220615'},
+          { text: '2022/06/16', link: '/TIL/202206/20220616'},
+          { text: '2022/06/17', link: '/TIL/202206/20220617'},
+          { text: '2022/06/18', link: '/TIL/202206/20220618'},
+          { text: '2022/06/19', link: '/TIL/202206/20220619'},
+          { text: '2022/06/20', link: '/TIL/202206/20220620'},
+          { text: '2022/06/21', link: '/TIL/202206/20220621'},
+          { text: '2022/06/22', link: '/TIL/202206/20220622'},
+          { text: '2022/06/23', link: '/TIL/202206/20220623'},
+        ]
+      },
+      {
+        text: '회고✨',
+        collapsible: true,
+        items: [
+          { text: '2022년 06월 둘째 주를 회고', link: '/TIL/202206/20220610'},
+          { text: '2022년 06월 셋째 주를 회고', link: '/TIL/202206/20220617'},
         ]
       },
     ],
+    
     '/webskills/':[
       {
         text:'WEBSKILLS',
@@ -52,63 +63,56 @@ function getSidebar(){
     ],
     "/":[
       {
-        text: 'TIL',
+        text: 'TIL📖',
         collapsible: true,
         items: [
-          { text: '2022_06_08', link: '/sdhs/20220608'},
-          { text: '2022_06_09', link: '/sdhs/20220609'},
-          { text: '2022_06_10', link: '/sdhs/20220610'},
-          { text: '2022_06_11', link: '/sdhs/20220611'},
-          { text: '2022_06_12', link: '/sdhs/20220612'},
-          { text: '2022_06_13', link: '/sdhs/20220613'},
-          { text: '2022_06_14', link: '/sdhs/20220614'},
-          { text: '2022_06_15', link: '/sdhs/20220615'},
-          { text: '2022_06_16', link: '/sdhs/20220616'},
-          { text: '2022_06_17', link: '/sdhs/20220617'},
-          { text: '2022_06_18', link: '/sdhs/20220618'},
-          { text: '2022_06_19', link: '/sdhs/20220619'},
-          { text: '2022_06_20', link: '/sdhs/20220620'},
-          { text: '2022_06_21', link: '/sdhs/20220621'},
-          { text: '2022_06_22', link: '/sdhs/20220622'},
+          { text: '2022년06월', link: '/TIL/202206/202206'},
         ]
       },
       {
-        text: '회고',
+        text: '회고✨',
         collapsible: true,
         items: [
-          { text: '2022_06_10', link: '/sdhs/20220610'},
-          { text: '2022_06_17', link: '/sdhs/20220617'},
+          { text: '2022년 06월 둘째 주를 회고', link: '/TIL/202206/20220610'},
+          { text: '2022년 06월 셋째 주를 회고', link: '/TIL/202206/20220617'},
         ]
       },
       {
-        text: '기능대회',
+        text: '기능대회💻',
         collapsible: true,
         items: [
           {text: '문제정리', link: '/webslis/problemRank'}
         ]
-      }
+      },
+      {
+        text: '일상⏰',
+        collapsible: true,
+        items: [
+          {text: '대회 끝나고', link: '/Daily/afterSkills'}
+        ]
+      },
   ],
   };
 }
 function getNav(){
   return [
     {
-      text:'sdhs',
-      link:"/sdhs/20220608",
-      activeMatch: "/sdhs/",
+      text:'TIL',
+      link:"/TIL/202206/20220608",
+      activeMatch: "/TIL/",
     },
     {
       text: 'Dropdown Menu',
       items: [
         {
           text:'TIL',
-          link:"/sdhs/20220608",
-          activeMatch: "/sdhs/",
+          link:"/TIL/202206/20220608",
+          activeMatch: "/TIL/",
         },
         {
           text:'회고',
-          link:"/sdhs/20220608",
-          activeMatch: "/sdhs/",
+          link:"/TIL/202206/20220608",
+          activeMatch: "/TIL/",
         },
         {
           text:'기능__살일__경기대회',
