@@ -11,3 +11,7 @@ createBy: 2022-06-26
 ## Awards 🏆
 #### 지방기능경기대회 (2022.04.04~2022.04.08) 은메달
 #### 전국기능경기대회 (2022.08.29~2022.09.02) ...
+
+## SNS📱
+#### [instargram] (https://www.instagram.com/kimjuneseo/)
+#### [github] (https://github.com/kimjuneseo)
