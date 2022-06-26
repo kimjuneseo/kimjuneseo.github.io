@@ -13,5 +13,5 @@ createBy: 2022-06-26
 #### 전국기능경기대회 (2022.08.29~2022.09.02) ...
 
 ## SNS📱
-#### [instargram] (https://www.instagram.com/kimjuneseo/)
-#### [github] (https://github.com/kimjuneseo)
+[instargram](https://www.instagram.com/kimjuneseo/)
+[github](https://github.com/kimjuneseo)
