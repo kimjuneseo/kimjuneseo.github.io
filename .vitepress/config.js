@@ -123,7 +123,7 @@ function getNav(){
           activeMatch: "/TIL/",
         },
         {
-          text:'기능__살일__경기대회',
+          text:'기능경기대회',
           link:"/webskills/problemRank",
           activeMatch: "/webskills/",
         },
