@@ -6,7 +6,7 @@ const mdDir = path.resolve(rootDir, "docs");
 
 export default {
     base: '/TIL/',
-    title: "한양노예 준서의 blog",
+    title: "한양노비 준서의 blog",
     description: 'A VitePress site',
     srcDir : mdDir,
     themeConfig: {
