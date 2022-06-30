@@ -114,7 +114,7 @@ function getNav(){
       activeMatch: "/TIL/",
     },
     {
-      text: 'Dropdown Menu',
+      text: 'Menu',
       items: [
         {
           text:'TIL',
