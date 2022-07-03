@@ -65,7 +65,10 @@ function get07TIL(){
     text: 'TIL',
     collapsible: true,
     items: [
-      {text: '2022/07/01✨', link: '/TIL/202207/20220701'}
+      {text: '2022/07/01✨', link: '/TIL/202207/20220701'},
+      {text: '2022/07/02', link: '/TIL/202207/20220702'},
+      {text: '2022/07/03', link: '/TIL/202207/20220703'},
+      {text: '2022/07/04', link: '/TIL/202207/20220704'},
     ]
   }
 }
