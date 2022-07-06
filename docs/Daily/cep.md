@@ -54,7 +54,7 @@ createBy: 2022-06-29
 - ## 제조
 ---
 ### 수주를 받은 화장품 제조업체는 생산계획을 세워 벌크 제조 및 포장 작업, 기한에 맞게 납품까지 하게 됩니다.
-![](./img/allProcess.png)
+![](https://github.com/kimjuneseo/TIL/blob/master/docs/img/allProcess.png?raw=true)
 #### 전체프로세스
 <br>
 <br>
@@ -62,7 +62,7 @@ createBy: 2022-06-29
 # CEP 프로세스
 ## 연구개발
 ---
-![](./img/R&D.png)
+![](https://github.com/kimjuneseo/TIL/blob/master/docs/img/R&D.png?raw=true)
 #### 연구개발 프로세스
 
 ## 연구개발노트💻
@@ -109,7 +109,7 @@ createBy: 2022-06-29
 
 ## 수주
 ---
-![](./img/order.png)
+![](https://github.com/kimjuneseo/TIL/blob/master/docs/img/order.png?raw=true)
 #### 수주 프로세스
 
 ## 수주서💻
@@ -135,7 +135,7 @@ createBy: 2022-06-29
 #### 쉽게 말해서 현재 가지고 있는 자재 수량이 얼마인지 파악해서 주문해야하는 량이 얼마인지, 언제까지 주문을 해야하는지 계산하는 것입니다.
 #### 이런 MRP를 계산하는데 있어서 보이는 보이는 것과 같이 다양한 옵션이있습니다.
 #### 사용할 옵션을 선택하여 계산버튼을 클릭해주면 됩니다.
-![](./img/MRP.png) 
+![](https://github.com/kimjuneseo/TIL/blob/master/docs/img/MRP.png?raw=true) 
 ::: tip
 - #### 리드타임: 주문을 했을 때부터 도착을 할 때까지 걸리는 시간
 - #### 로스율: 공정과정에서 날아가는 량
@@ -194,7 +194,7 @@ createBy: 2022-06-29
 
 ## 벌크 제조
 ---
-![](./img/Bulk .png)
+![](https://github.com/kimjuneseo/TIL/blob/master/docs/img/Bulk.png?raw=true)
 
 ## 생산계획💻
 #### 생산계획관리 > MPS관리 > 생산계획
@@ -257,7 +257,7 @@ createBy: 2022-06-29
 
 ## 충포장
 ---
-![](./img/충포장.png)
+![](https://github.com/kimjuneseo/TIL/blob/master/docs/img/충포장.png?raw=true)
 
 ## 생산게획
 #### 생산계획관리 > MPS관리 > 생산계획
