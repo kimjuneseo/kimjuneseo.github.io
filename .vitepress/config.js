@@ -102,7 +102,8 @@ function getSidebar(){
         text: '일상⏰',
         collapsible: true,
         items: [
-          {text: '대회 끝나고', link: '/Daily/afterSkills'}
+          {text: '대회 끝나고', link: '/Daily/afterSkills'},
+          {text: '소도시인들 상경하다', link: '/Daily/Daily1'}
         ]
       }
     ],
