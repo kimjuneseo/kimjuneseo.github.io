@@ -84,6 +84,18 @@ function get07TIL(){
   }
 }
 
+function getDaily(){
+  return {
+    text: '일상⏰',
+    collapsible: true,
+    items: [
+      {text: '대회 끝나고', link: '/Daily/afterSkills'},
+      {text: '소도시인들 상경하다', link: '/Daily/Daily1'},
+      {text: '토트넘 VS 세비아', link: '/Daily/Daily2'},
+    ]
+  }
+}
+
 function getSidebar(){
   return {
     '/TIL/202206':[
@@ -98,14 +110,7 @@ function getSidebar(){
     ],
     
     '/Daily/':[
-      {
-        text: '일상⏰',
-        collapsible: true,
-        items: [
-          {text: '대회 끝나고', link: '/Daily/afterSkills'},
-          {text: '소도시인들 상경하다', link: '/Daily/Daily1'}
-        ]
-      }
+      getDaily(),
     ],
     '/webskills/':[
       {
@@ -133,13 +138,7 @@ function getSidebar(){
           {text: '문제정리', link: '/webskills/problemRank'}
         ]
       },
-      {
-        text: '일상⏰',
-        collapsible: true,
-        items: [
-          {text: '대회 끝나고', link: '/Daily/afterSkills'}
-        ]
-      },
+      getDaily(),
   ],
   };
 }
