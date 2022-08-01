@@ -102,6 +102,16 @@ function get07TIL(){
     ]
   }
 }
+function get08TIL(){
+  return {
+    text: 'TIL',
+    collapsible: true,
+    items: [
+      {text: '2022/08/01', link: '/TIL/202208/20220701'},
+     
+    ]
+  }
+}
 
 function getDaily(){
   return {
@@ -127,6 +137,11 @@ function getSidebar(){
       ,
       getRecall(),
     ],
+    '/TIL/202208':[
+      get08TIL()
+      ,
+      getRecall(),
+    ],
     
     '/Daily/':[
       getDaily(),
@@ -147,6 +162,7 @@ function getSidebar(){
         items: [
           { text: '2022년06월', link: '/TIL/202206/202206'},
           { text: '2022년07월', link: '/TIL/202207/202207'},
+          { text: '2022년08월', link: '/TIL/202208/202208'},
         ]
       },
       getRecall(),
