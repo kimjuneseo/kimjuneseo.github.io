@@ -107,7 +107,8 @@ function get08TIL(){
     text: 'TIL',
     collapsible: true,
     items: [
-      {text: '2022/08/01', link: '/TIL/202208/20220701'},
+      {text: '2022/08/01', link: '/TIL/202208/20220801'},
+      {text: '2022/08/02', link: '/TIL/202208/20220802'},
      
     ]
   }
