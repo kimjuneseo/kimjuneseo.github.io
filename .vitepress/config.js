@@ -150,6 +150,7 @@ function get09TIL(){
     collapsible: true,
     items: [
       {text: '2022/09/01', link: '/TIL/202209/20220901'},
+      {text: '2022/09/02', link: '/TIL/202209/20220902'},
       
       
      
