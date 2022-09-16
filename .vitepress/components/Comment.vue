@@ -1,5 +1,5 @@
 <template>
-  <div ref="comment"></div>
+  <div ref="comment" style=" margin: 120px 0px 0px 0px;"></div>
 </template>
 <script>
 export default {
@@ -12,7 +12,7 @@ export default {
     utterances.src = "https://utteranc.es/client.js";
 
     utterances.setAttribute("issue-term", "pathname"); // pathname|url|title|og:title 중 택 1
-    utterances.setAttribute("theme", "github-dark"); // theme 설정 (github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark, boxy-light) 중 하나 선택
+    utterances.setAttribute("theme", "photon-dark"); // theme 설정 (github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark, boxy-light) 중 하나 선택
     utterances.setAttribute("repo", `kimjuneseo/blog-comment`); // 주의!! 사용할 repository
 
     this.$refs.comment.appendChild(utterances);
