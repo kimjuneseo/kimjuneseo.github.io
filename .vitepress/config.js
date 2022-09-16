@@ -4,7 +4,7 @@ const path = require("path");
 const rootDir = path.resolve(__dirname, "../");
 const mdDir = path.resolve(rootDir, "docs");
 
-export default {
+module.exports = {
     base: '/TIL/',
     title: "한양노비 준서의 blog",
     description: 'A VitePress site',
