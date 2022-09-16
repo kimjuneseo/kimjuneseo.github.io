@@ -23,6 +23,7 @@
     "vitepress": "^1.0.0-alpha.4"
   },
   "dependencies": {
-    "vitepress-simple-theme": "^0.4.0"
+    "vitepress-simple-theme": "^0.4.0",
+    "vuepress-plugin-rss-feed": "^1.0.1"
   }
-} 
+}
