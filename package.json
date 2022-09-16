@@ -23,6 +23,7 @@
     "vitepress": "^1.0.0-alpha.4"
   },
   "dependencies": {
+    "@vuepress/plugin-google-analytics": "^1.9.7",
     "vitepress-simple-theme": "^0.4.0",
     "vuepress-plugin-rss-feed": "^1.0.1"
   }
