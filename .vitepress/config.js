@@ -19,10 +19,10 @@ module.exports = {
         format:"cjs",
       }
     }, 
-     head: [
-      ["script", {async: true,src: "https://www.googletagmanager.com/gtag/js?id=G-LPCXPEB16R"},],
-      ["script", {}, ["window.dataLayer = window.dataLayer || []; \nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-LPCXPEB16R');"]],
-    ],
+    //  head: [
+    //   ["script", {async: true,src: "https://www.googletagmanager.com/gtag/js?id=G-LPCXPEB16R"},],
+    //   ["script", {}, ["window.dataLayer = window.dataLayer || []; \nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-LPCXPEB16R');"]],
+    // ],
   
 }
 
