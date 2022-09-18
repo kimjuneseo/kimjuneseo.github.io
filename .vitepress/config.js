@@ -8,14 +8,8 @@ export default {
     base: '/TIL/',
     title: "한양노비 준서의 blog",
     head: [
-      [
-	      "script",
-	      {
-	        async: true,
-	        src: "https://www.googletagmanager.com/gtag/js?id=G-LPCXPEB16R",
-	      },
-	    ],
-      ["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-LPCXPEB16R');"]],
+      ["script", {async: true,  src: "https://www.googletagmanager.com/gtag/js?id=G-LPCXPEB16R",}],
+      ["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}; gtag('js', new Date()); gtag('config', 'G-LPCXPEB16R');"]],
     ],
     description: 'A VitePress site',
     srcDir : mdDir,
@@ -177,6 +171,8 @@ function get09TIL(){
       {text: '2022/09/13', link: '/TIL/202209/20220913'},
       {text: '2022/09/14', link: '/TIL/202209/20220914'},
       {text: '2022/09/15', link: '/TIL/202209/20220915'},
+      {text: '2022/09/16', link: '/TIL/202209/20220916'},
+      {text: '2022/09/17', link: '/TIL/202209/20220917'},
       
       
       
