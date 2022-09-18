@@ -8,8 +8,14 @@ export default {
     base: '/TIL/',
     title: "한양노비 준서의 blog",
     head: [
-      // ["script", {async: true,src: "https://www.googletagmanager.com/gtag/js?id=G-LPCXPEB16R"},],
-      ["script", {}, ["window.dataLayer = window.dataLayer || []; \nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-LPCXPEB16R');"]],
+      [
+	      "script",
+	      {
+	        async: true,
+	        src: "https://www.googletagmanager.com/gtag/js?id=G-LPCXPEB16R",
+	      },
+	    ],
+      ["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-LPCXPEB16R');"]],
     ],
     description: 'A VitePress site',
     srcDir : mdDir,
@@ -28,6 +34,10 @@ export default {
 }
 
 
+window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'G-LPCXPEB16R');
 
 function getRecall(){
   return {  
