@@ -4,9 +4,13 @@ const path = require("path");
 const rootDir = path.resolve(__dirname, "../");
 const mdDir = path.resolve(rootDir, "docs");
 
-module.exports = {
+export default {
     base: '/TIL/',
     title: "한양노비 준서의 blog",
+    head: [
+      // ["script", {async: true,src: "https://www.googletagmanager.com/gtag/js?id=G-LPCXPEB16R"},],
+      ["script", {}, ["window.dataLayer = window.dataLayer || []; \nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-LPCXPEB16R');"]],
+    ],
     description: 'A VitePress site',
     srcDir : mdDir,
     themeConfig: {
@@ -19,10 +23,7 @@ module.exports = {
         format:"cjs",
       }
     }, 
-    //  head: [
-    //   ["script", {async: true,src: "https://www.googletagmanager.com/gtag/js?id=G-LPCXPEB16R"},],
-    //   ["script", {}, ["window.dataLayer = window.dataLayer || []; \nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-LPCXPEB16R');"]],
-    // ],
+    
   
 }
 
