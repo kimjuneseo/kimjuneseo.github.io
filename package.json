@@ -23,8 +23,11 @@
     "vitepress": "^1.0.0-alpha.4"
   },
   "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-google-analytics": "^1.9.7",
     "vitepress-simple-theme": "^0.4.0",
-    "vuepress-plugin-rss-feed": "^1.0.1"
+    "vuepress-plugin-feed": "^0.1.9",
+    "vuepress-plugin-rss-feed": "^1.0.1",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }
