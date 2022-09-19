@@ -1,10 +1,12 @@
 // .vitepress/config.js
-import Sitemap from 'vite-plugin-sitemap'
+import { createWriteStream } from 'node:fs'
+import { resolve } from 'node:path'
+import { SitemapStream } from 'sitemap'
 const path = require("path");
 
 const rootDir = path.resolve(__dirname, "../");
 const mdDir = path.resolve(rootDir, "docs");
-const { SitemapStream, streamToPromise } = require('sitemap')
+
 
 const links = [];
 
