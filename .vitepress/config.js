@@ -7,7 +7,9 @@ const path = require("path");
 const rootDir = path.resolve(__dirname, "../");
 const mdDir = path.resolve(rootDir, "docs");
 
-
+const feed_options = {
+  canonical_base: 'https://kimjuneseo.github.io/TIL/',
+};
 const links = [];
 
 export default {
@@ -41,10 +43,9 @@ export default {
         sidebar:getSidebar(),
         nav: getNav()
     }, 
-    //  plugins: [
-    //   Vue(),
-    //   Sitemap(),
-    // ],
+    plugins: [
+      [ 'feed', feed_options ]
+    ],
     vite:{
       ssr:{
         format:"cjs",
