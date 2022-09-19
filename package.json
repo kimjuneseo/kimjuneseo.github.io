@@ -20,11 +20,13 @@
   },
   "homepage": "https://github.com/kimjuneseo/TIL#readme",
   "devDependencies": {
+    "vite-plugin-sitemap": "^0.2.0",
     "vitepress": "^1.0.0-alpha.4"
   },
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-google-analytics": "^1.9.7",
+    "sitemap": "^7.1.1",
     "vitepress-simple-theme": "^0.4.0",
     "vuepress-plugin-feed": "^0.1.9",
     "vuepress-plugin-rss-feed": "^1.0.1",
