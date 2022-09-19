@@ -2,14 +2,13 @@
 import { createWriteStream } from 'node:fs'
 import { resolve } from 'node:path'
 import { SitemapStream } from 'sitemap'
+import {feed} from 'vuepress-plugin-feed2';
 const path = require("path");
 
 const rootDir = path.resolve(__dirname, "../");
 const mdDir = path.resolve(rootDir, "docs");
 
-const feed_options = {
-  canonical_base: 'https://kimjuneseo.github.io/TIL/',
-};
+
 const links = [];
 
 export default {
@@ -43,12 +42,12 @@ export default {
         nav: getNav()
     }, 
     plugins: [
-      [ 'feed', {
+      'feed'( {
         hostname: 'hhttps://kimjuneseo.github.io/TIL/',
         rss: true,
         atom: true,
         json: true,
-      }]
+      }),
     ],
     vite:{
       ssr:{
