@@ -19,7 +19,7 @@ export default {
       ["script", {async: true,  src: "https://www.googletagmanager.com/gtag/js?id=G-H14R86J9MR",}],
       ["script", {}, "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}; gtag('js', new Date()); gtag('config', 'G-H14R86J9MR');"],
     ],
-    
+    // rss
     transformHtml: (_, id, { pageData }) => {
       if (!/[\\/]404\.html$/.test(id))
         links.push({
@@ -34,8 +34,7 @@ export default {
       sitemap.pipe(writeStream)
       links.forEach((link) => sitemap.write(link))
       sitemap.end()
-    }
-  ,
+    },
     description: 'A VitePress site',
     srcDir : mdDir,
     themeConfig: {
@@ -44,7 +43,12 @@ export default {
         nav: getNav()
     }, 
     plugins: [
-      [ 'feed', feed_options ]
+      [ 'feed', {
+        hostname: 'hhttps://kimjuneseo.github.io/TIL/',
+        rss: true,
+        atom: true,
+        json: true,
+      }]
     ],
     vite:{
       ssr:{

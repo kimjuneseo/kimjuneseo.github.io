@@ -22,7 +22,8 @@
   "devDependencies": {
     "vite-plugin-sitemap": "^0.2.0",
     "vitepress": "^1.0.0-alpha.4",
-    "vuepress-plugin-feed": "^0.1.9"
+    "vuepress-plugin-feed": "^0.1.9",
+    "vuepress-plugin-feed2": "^2.0.0-alpha.33"
   },
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.9.7",
