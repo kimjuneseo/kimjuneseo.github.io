@@ -6,7 +6,7 @@ const rootDir = path.resolve(__dirname, "../");
 const mdDir = path.resolve(rootDir, "docs");
 const { SitemapStream, streamToPromise } = require('sitemap')
 
-
+const links = [];
 
 export default {
     base: '/TIL/',
