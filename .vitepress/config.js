@@ -4,7 +4,7 @@ const path = require("path");
 
 const rootDir = path.resolve(__dirname, "../");
 const mdDir = path.resolve(rootDir, "docs");
-// const { SitemapStream, streamToPromise } = require('sitemap')
+const { SitemapStream, streamToPromise } = require('sitemap')
 
 
 
@@ -16,32 +16,33 @@ export default {
       ["script", {}, "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}; gtag('js', new Date()); gtag('config', 'G-H14R86J9MR');"],
     ],
     
-    // transformHtml: (_, id, { pageData }) => {
-    //   if (!/[\\/]404\.html$/.test(id))
-    //     links.push({
-    //       url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2'),
-    //       lastmod: pageData.lastUpdated
-    //     })
-    // },
+    transformHtml: (_, id, { pageData }) => {
+      if (!/[\\/]404\.html$/.test(id))
+        links.push({
+          url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2'),
+          lastmod: pageData.lastUpdated
+        })
+    },
   
-    // buildEnd: ({ outDir }) => {
-    //   const sitemap = new SitemapStream({ hostname: 'https://kimjuneseo.github.io/TIL/' })
-    //   const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
-    //   sitemap.pipe(writeStream)
-    //   links.forEach((link) => sitemap.write(link))
-    //   sitemap.end()
-    // }
-  // ,
+    buildEnd: ({ outDir }) => {
+      const sitemap = new SitemapStream({ hostname: 'https://kimjuneseo.github.io/TIL/' })
+      const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
+      sitemap.pipe(writeStream)
+      links.forEach((link) => sitemap.write(link))
+      sitemap.end()
+    }
+  ,
     description: 'A VitePress site',
     srcDir : mdDir,
     themeConfig: {
         
         sidebar:getSidebar(),
         nav: getNav()
-    },  plugins: [
-      Vue(),
-      Sitemap(),
-    ],
+    }, 
+    //  plugins: [
+    //   Vue(),
+    //   Sitemap(),
+    // ],
     vite:{
       ssr:{
         format:"cjs",
