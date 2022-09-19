@@ -2,7 +2,7 @@
 import { createWriteStream } from 'node:fs'
 import { resolve } from 'node:path'
 import { SitemapStream } from 'sitemap'
-import {feed} from 'vuepress-plugin-feed2';
+import {feed} from 'vuepress-plugin-feed';
 const path = require("path");
 
 const rootDir = path.resolve(__dirname, "../");
@@ -204,10 +204,7 @@ function get09TIL(){
       {text: '2022/09/15', link: '/TIL/202209/20220915'},
       {text: '2022/09/16', link: '/TIL/202209/20220916'},
       {text: '2022/09/17', link: '/TIL/202209/20220917'},
-      
-      
-      
-     
+
     ]
   }
 }
