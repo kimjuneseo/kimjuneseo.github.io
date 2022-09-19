@@ -42,7 +42,7 @@ export default {
         nav: getNav()
     }, 
     plugins: [
-      'feed'( {
+      feed( {
         hostname: 'hhttps://kimjuneseo.github.io/TIL/',
         rss: true,
         atom: true,
