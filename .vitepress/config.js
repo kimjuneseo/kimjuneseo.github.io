@@ -15,6 +15,7 @@ export default {
     base: '/TIL/',
     title: "한양노비 준서의 blog",
     head: [
+      ["meta", {name :"naver-site-verification", content:"9e31da0325d0f3bd5804f51c5bcc357a4c79918c"}],
       ["script", {async: true,  src: "https://www.googletagmanager.com/gtag/js?id=G-H14R86J9MR",}],
       ["script", {}, "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}; gtag('js', new Date()); gtag('config', 'G-H14R86J9MR');"],
     ],
