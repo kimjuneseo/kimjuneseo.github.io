@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T05:32:19.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ooxPXTTcRc_EMLJZ-YVz" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-20T05:35:03.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="G3D3xtlVuE-QgSsb6Z_M" version="20.3.3" type="github">
   <diagram id="MAdHZuQtxRqNlHEqhnJB" name="순서도">
-    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2370" dy="1323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -396,8 +396,19 @@
         <mxCell id="f3ThY1ECnz5396Y3haZc-43" value="인증코드 화면" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="112.5" y="2090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="f3ThY1ECnz5396Y3haZc-45" value="파일이 존재하는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="94.25" y="2210" width="157.5" height="80" as="geometry" />
+        <mxCell id="f3ThY1ECnz5396Y3haZc-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f3ThY1ECnz5396Y3haZc-45" target="f3ThY1ECnz5396Y3haZc-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3ThY1ECnz5396Y3haZc-49" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f3ThY1ECnz5396Y3haZc-48">
+          <mxGeometry x="-0.2454" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f3ThY1ECnz5396Y3haZc-45" value="파일이 존재한가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="94.25" y="2190" width="157.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f3ThY1ECnz5396Y3haZc-47" value="인증코드 화면" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
