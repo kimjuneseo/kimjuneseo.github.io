@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T05:35:03.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="G3D3xtlVuE-QgSsb6Z_M" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-20T06:08:59.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yj9hQN3-FXHdGyoZs7w3" version="20.3.3" type="github">
   <diagram id="MAdHZuQtxRqNlHEqhnJB" name="순서도">
-    <mxGraphModel dx="2370" dy="1323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -263,7 +263,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CQsBSXjhsrfqwExQ2lPQ-76" value="실패 메세지 처리" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1310" y="1740" width="120" height="60" as="geometry" />
+          <mxGeometry x="1320" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="f3ThY1ECnz5396Y3haZc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CQsBSXjhsrfqwExQ2lPQ-77" target="f3ThY1ECnz5396Y3haZc-6">
           <mxGeometry relative="1" as="geometry" />
