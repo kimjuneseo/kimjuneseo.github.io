@@ -12,7 +12,7 @@ const mdDir = path.resolve(rootDir, "docs");
 const links = [];
 
 export default {
-    base: '/TIL/',
+    // base: '/TIL/',
     title: "한양노비 준서의 blog",
     head: [
       ["meta", {name :"naver-site-verification", content:"9e31da0325d0f3bd5804f51c5bcc357a4c79918c"}],
@@ -29,7 +29,7 @@ export default {
     },
   
     buildEnd: ({ outDir }) => {
-      const sitemap = new SitemapStream({ hostname: 'https://kimjuneseo.github.io/TIL/' })
+      const sitemap = new SitemapStream({ hostname: 'https://kimjuneseo.github.io/' })
       const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
       sitemap.pipe(writeStream)
       links.forEach((link) => sitemap.write(link))
@@ -42,14 +42,7 @@ export default {
         sidebar:getSidebar(),
         nav: getNav()
     }, 
-    // plugins: [
-    //   feed( {
-    //     hostname: 'hhttps://kimjuneseo.github.io/TIL/',
-    //     rss: true,
-    //     atom: true,
-    //     json: true,
-    //   }),
-    // ],
+   
     vite:{
       ssr:{
         format:"cjs",
