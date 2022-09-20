@@ -2,7 +2,7 @@
 import { createWriteStream } from 'node:fs'
 import { resolve } from 'node:path'
 import { SitemapStream } from 'sitemap'
-import {feed} from 'vuepress-plugin-feed';
+
 const path = require("path");
 
 const rootDir = path.resolve(__dirname, "../");
