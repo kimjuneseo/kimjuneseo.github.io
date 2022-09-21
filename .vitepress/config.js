@@ -52,6 +52,17 @@ export default {
   
 }
 
+function vitePressInfo(){
+  return {  
+      text: 'vitepress👀',
+      collapsible: true,
+      items: [
+        { text: '[vitepress] 댓글 기능 추가하기', link: '/Vitepress/comment'},
+        
+      ]
+    };
+}
+
 function getRecall(){
   return {  
       text: '회고✨',
@@ -272,6 +283,7 @@ function getSidebar(){
           {text: '문제정리', link: '/webskills/problemRank'}
         ]
       },
+      vitePressInfo(),
       getDaily(),
   ],
   };
