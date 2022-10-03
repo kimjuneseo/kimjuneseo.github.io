@@ -218,12 +218,29 @@ function get09TIL(){
       {text: '2022/09/24', link: '/TIL/202209/20220924'},
       {text: '2022/09/25', link: '/TIL/202209/20220925'},
       {text: '2022/09/26', link: '/TIL/202209/20220926'},
-      {text: '2022/09/27', link: '/TIL/202209/20220927'},
       {text: '2022/09/28', link: '/TIL/202209/20220928'},
+      {text: '2022/09/29', link: '/TIL/202209/20220929'},
+      {text: '2022/09/30', link: '/TIL/202209/20220930'},
+      
 
     ]
   }
 }
+
+function get10TIL(){
+  return {
+    text: 'TIL',
+    collapsible: true,
+    items: [
+      {text: '2022/10/01', link: '/TIL/202210/20221001'},
+      {text: '2022/10/02', link: '/TIL/202210/20221002'},
+      {text: '2022/10/03', link: '/TIL/202210/20221003'},
+      
+
+    ]
+  }
+}
+
 
 function getDaily(){
   return {
@@ -239,13 +256,13 @@ function getDaily(){
 
 function getSidebar(){
   return {
-    '/TIL/202206':[
-      get06TIL()
+    '/TIL/202210':[
+      get10TIL()
       ,
       getRecall(),
     ],
-    '/TIL/202207':[
-      get07TIL()
+    '/TIL/202209':[
+      get09TIL()
       ,
       getRecall(),
     ],
@@ -254,8 +271,13 @@ function getSidebar(){
       ,
       getRecall(),
     ],
-    '/TIL/202209':[
-      get09TIL()
+    '/TIL/202207':[
+      get07TIL()
+      ,
+      getRecall(),
+    ],
+    '/TIL/202206':[
+      get06TIL()
       ,
       getRecall(),
     ],
