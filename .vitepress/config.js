@@ -83,7 +83,7 @@ function getRecall(){
     };
 }
 
-function get06TIL(){
+function get202206TIL(){
   return{
     text: 'TIL',
     collapsible: true,
@@ -114,7 +114,7 @@ function get06TIL(){
   }
 }
 
-function get07TIL(){
+function get202207TIL(){
   return {
     text: 'TIL',
     collapsible: true,
@@ -153,7 +153,7 @@ function get07TIL(){
     ]
   }
 }
-function get08TIL(){
+function get202208TIL(){
   return {
     text: 'TIL',
     collapsible: true,
@@ -187,7 +187,7 @@ function get08TIL(){
     ]
   }
 }
-function get09TIL(){
+function get202209TIL(){
   return {
     text: 'TIL',
     collapsible: true,
@@ -227,7 +227,7 @@ function get09TIL(){
   }
 }
 
-function get10TIL(){
+function get202210TIL(){
   return {
     text: 'TIL',
     collapsible: true,
@@ -257,27 +257,27 @@ function getDaily(){
 function getSidebar(){
   return {
     '/TIL/202210':[
-      get10TIL()
+      get202210TIL()
       ,
       getRecall(),
     ],
     '/TIL/202209':[
-      get09TIL()
+      get202209TIL()
       ,
       getRecall(),
     ],
     '/TIL/202208':[
-      get08TIL()
+      get202208TIL()
       ,
       getRecall(),
     ],
     '/TIL/202207':[
-      get07TIL()
+      get202207TIL()
       ,
       getRecall(),
     ],
     '/TIL/202206':[
-      get06TIL()
+      get202206TIL()
       ,
       getRecall(),
     ],
@@ -299,10 +299,11 @@ function getSidebar(){
         text: 'TIL📖',
         collapsible: true,
         items: [
-          { text: '2022년06월', link: '/TIL/202206/202206'},
-          { text: '2022년07월', link: '/TIL/202207/202207'},
-          { text: '2022년08월', link: '/TIL/202208/202208'},
+          { text: '2022년10월', link: '/TIL/202210/202210'},
           { text: '2022년09월', link: '/TIL/202209/202209'},
+          { text: '2022년08월', link: '/TIL/202208/202208'},
+          { text: '2022년07월', link: '/TIL/202207/202207'},
+          { text: '2022년06월', link: '/TIL/202206/202206'},
         ]
       },
       getRecall(),
