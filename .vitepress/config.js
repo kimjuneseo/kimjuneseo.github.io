@@ -347,6 +347,7 @@ function getSidebar(){
         text: 'TIL📖',
         collapsible: true,
         items: [
+          { text: '2022년11월', link: '/TIL/202211/202211'},
           { text: '2022년10월', link: '/TIL/202210/202210'},
           { text: '2022년09월', link: '/TIL/202209/202209'},
           { text: '2022년08월', link: '/TIL/202208/202208'},
@@ -362,7 +363,7 @@ function getSidebar(){
           {text: '문제정리', link: '/webskills/problemRank'}
         ]
       },
-      vitePressInfo(),
+      // vitePressInfo(),
       getDaily(),
   ],
   };
