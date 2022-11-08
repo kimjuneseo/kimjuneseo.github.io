@@ -6,7 +6,7 @@ import Comment from '../components/Comment.vue'
 export default {
     ...Theme,
 
-    enhanceApp({ app, router, siteData }) {
+    enhanceApp({ app }) {
       app.component('Comment', Comment)
     }
 }
