@@ -297,6 +297,17 @@ function get202211TIL(){
     ]
   }
 }
+function get202212TIL(){
+  return {
+    text: 'TIL',
+    collapsible: true,
+    items: [
+      {text: '친구 두명이 회사에서...ㅜ', link: '/TIL/202212/20221207'},
+ 
+
+    ]
+  }
+}
 
 
 function getDaily(){
@@ -313,6 +324,11 @@ function getDaily(){
 
 function getSidebar(){
   return {
+    '/TIL/202212':[
+      get202212TIL()
+      ,
+      getRecall(),
+    ],
     '/TIL/202211':[
       get202211TIL()
       ,
@@ -361,6 +377,7 @@ function getSidebar(){
         text: 'TIL📖',
         collapsible: true,
         items: [
+          { text: '2022년12월', link: '/TIL/202212/202212'},
           { text: '2022년11월', link: '/TIL/202211/202211'},
           { text: '2022년10월', link: '/TIL/202210/202210'},
           { text: '2022년09월', link: '/TIL/202209/202209'},
