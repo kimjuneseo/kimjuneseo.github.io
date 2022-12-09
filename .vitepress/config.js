@@ -303,6 +303,7 @@ function get202212TIL(){
     collapsible: true,
     items: [
       {text: '친구 두명이 회사에서...ㅜ', link: '/TIL/202212/20221207'},
+      {text: 'nest그게 뭔데', link: '/TIL/202212/20221207'},
  
 
     ]
