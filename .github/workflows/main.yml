@@ -4,6 +4,10 @@ jobs:
     build-and-deploy:
         runs-on: ubuntu-latest
         steps:
+            - name: Node.js 14
+              uses: actions/setup-node@v2
+              with: 
+                  node-version: '14'
             - name: Checkout
               uses: actions/checkout@master
             - run: node -v
